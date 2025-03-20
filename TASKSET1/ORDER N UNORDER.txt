@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lists in HTML</title>
+</head>
+<body>
+
+    <h2>Ordered List</h2>
+    <ol>
+        <li>Veggies</li>
+        <li>Eggs</li>
+        <li>Ice Cream</li>
+        <li>Kitkat</li>
+        <li>Cakes</li>
+    </ol>
+
+    <hr>
+
+    <h2>Unordered List</h2>
+    <ul>
+        <li>Item Laddo</li>
+        <li>Item Maida</li>
+        <li>Item Leafy Vegetables</li>
+        <li>Item Cool Drinks</li>
+        <li>Item Electronic Device</li>
+    </ul>
+</body>
+</html>

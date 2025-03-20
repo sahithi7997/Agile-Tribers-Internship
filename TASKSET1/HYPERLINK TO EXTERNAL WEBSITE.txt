@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-commerce Links</title>
+</head>
+<body>
+
+    <section>
+        <h2>Amazon</h2>
+        <p>Visit the world's largest online retailer for a wide variety of products.</p>
+        <a href="https://www.amazon.com" target="_blank">Go to Amazon</a>
+    </section>
+
+    <section>
+        <h2>Flipkart</h2>
+        <p>Explore India's leading e-commerce platform for electronics, fashion, and more.</p>
+        <a href="https://www.flipkart.com" target="_blank">Go to Flipkart</a>
+    </section>
+
+    <section>
+        <h2>Meesho</h2>
+        <p>Shop for trendy products at affordable prices with Meesho.</p>
+        <a href="https://www.meesho.com" target="_blank">Go to Meesho</a>
+    </section>
+
+</body>
+</html>

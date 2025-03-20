@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Computer Science</title>
+</head>
+<body>
+
+    <h1>Computer Science</h1>
+    
+    <p>
+        <b>Computer Science</b> is a fascinating field that combines <i>theory</i> and <i>practical applications</i>. 
+        It involves the study of <b>algorithms</b>, <i>data structures</i>, and <b>software development</b>. 
+        For more information, you can visit the <a href="https://www.computerscience.org/" target="_blank">Computer Science website</a>.
+    </p>
+
+</body>
+</html>

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text Size Hierarchy</title>
+    <style>
+        .text-large {
+            font-size: 36px; /* Largest text */
+        }
+        .text-medium-large {
+            font-size: 30px;
+        }
+        .text-medium {
+            font-size: 24px;
+        }
+        .text-medium-small {
+            font-size: 18px;
+        }
+        .text-small {
+            font-size: 14px;
+        }
+        .text-x-small {
+            font-size: 12px; /* Smallest text */
+        }
+    </style>
+</head>
+<body>
+    <h1 class="text-large">Sahithi Sahu</h1>
+    <h2 class="text-medium-large">Computer Science</h2>
+    <h3 class="text-medium">Database Structures</h3>
+    <h4 class="text-medium-small">Core Java</h4>
+    <h5 class="text-small">hypertext markup </h5>
+    <h6 class="text-x-small">Google cloud</h6>
+</body>
+</html>

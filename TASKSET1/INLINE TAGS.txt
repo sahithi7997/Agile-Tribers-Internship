@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Computer Science</title>
+</head>
+<body>
+
+    <h1>Computer Science</h1>
+    
+    <p>
+        <b>Computer Science</b> is a rapidly evolving field that encompasses the study of <i>computers</i> and computational systems. It involves both the theoretical and practical aspects of <b>algorithm design</b>, <i>software development</i>, and <b>data analysis</b>. As technology continues to advance, the importance of <i>computer science</i> in various industries cannot be overstated. From <b>artificial intelligence</b> to <i>cybersecurity</i>, the applications of computer science are vast and impactful.
+    </p>
+
+</body>
+</html>
