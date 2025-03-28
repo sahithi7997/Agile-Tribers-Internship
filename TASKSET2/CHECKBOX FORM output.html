@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Ex 12 : Checkboxes in Form</title>
+<style>
+body {
+  font-family: sans-serif;
+}
+</style>
+</head>
+<body>
+
+<h3>Ex 12 : Checkboxes in Form</h3>
+
+<p>Add checkboxes for skill levels.</p>
+
+<form>
+  <p><b>Please Fill And Submit Form :</b></p>
+  <label for="name">Name:</label><br>
+  <input type="text" id="name" name="name"><br><br>
+  <label for="email">Email:</label><br>
+  <input type="email" id="email" name="email"><br><br>
+
+  <p>Select A color you like :</p>
+  <input type="radio" id="red" name="color" value="red">
+  <label for="red">Red</label><br>
+  <input type="radio" id="green" name="color" value="green">
+  <label for="green">Green</label><br>
+  <input type="radio" id="blue" name="color" value="blue">
+  <label for="blue">Blue</label><br><br>
+
+  <label for="favoriteColor">Select your favorite color:</label>
+  <select id="favoriteColor" name="favoriteColor">
+    <option value="red">Red</option>
+    <option value="green">Green</option>
+    <option value="blue">Blue</option>
+  </select><br><br>
+
+  <p>Choose your skill level:</p>
+  <input type="checkbox" id="beginner" name="skill" value="beginner">
+  <label for="beginner">Beginner</label><br>
+  <input type="checkbox" id="intermediate" name="skill" value="intermediate">
+  <label for="intermediate">Intermediate</label><br>
+  <input type="checkbox" id="advanced" name="skill" value="advanced">
+  <label for="advanced">Advanced</label><br><br>
+
+  <input type="submit" value="Submit">
+</form> 
+
+</body>
+</html>

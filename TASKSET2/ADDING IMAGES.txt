@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Adding Images</title>
+<style>
+body {
+  font-family: sans-serif;
+}
+.image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+.image-container img {
+  margin: 0 10px; /* Add spacing between images */
+}
+</style>
+</head>
+<body>
+
+<h2>Adding Images</h2>
+<p>Display an image with src, alt, height, and width.</p>
+
+<h2>Using Image in HTML</h2>
+<p>Attributes ::: "height", "width" and "alt"</p>
+
+<div class="image-container">
+  <img src="html_image.png" alt="HTML Hyper Text Markup Language" height="200" width="300">
+  <img src="css_image.png" alt="CSS Full Form Cascading Style Sheets" height="200" width="300">
+</div>
+
+</body>
+</html>

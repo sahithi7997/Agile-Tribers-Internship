@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Colspan & Rowspan Example</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 60%;
+            margin: 30px auto;
+        }
+        th, td {
+            border: 1px solid blue;
+            padding: 10px;
+            text-align: center;
+        }
+        th {
+            background-color: #f2f2f2;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+    <h2 style="text-align: center;">Colspan & Rowspan Usage</h2>
+    <h4 style="text-align: center;">Merge table cells for structured data.</h4>
+
+    <table>
+        <tr>
+            <th colspan="2" rowspan="2">Header (spans 2 columns and 2 rows)</th>
+            <td>data</td>
+        </tr>
+        <tr>
+            <td>data</td>
+        </tr>
+        <tr>
+            <td>data</td>
+            <td>data</td>
+            <td>data</td>
+        </tr>
+    </table>
+
+</body>
+</html>

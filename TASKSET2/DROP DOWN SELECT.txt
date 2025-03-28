@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Dropdown Select Example</title>
+<style>
+body {
+    font-family: sans-serif;
+    padding: 20px;
+}
+.container {
+    width: 400px;
+    margin: 0 auto;
+    border: 1px solid #ddd;
+    padding: 20px;
+}
+input[type="text"], select {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0 20px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+</style>
+</head>
+<body>
+
+<div class="container">
+  <h2> Dropdown Select</h2>
+  <p>Include a dropdown to choose colors.</p>
+  <p><strong>Please Fill And Submit Form :</strong></p>
+
+  <form>
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" placeholder="Your name..">
+
+    <label for="email">Email:</label>
+    <input type="text" id="email" name="email" placeholder="Your email..">
+
+    <p>Select A color you like :</p>
+    <input type="radio" id="red" name="color" value="red">
+    <label for="red">Red</label><br>
+    <input type="radio" id="green" name="color" value="green">
+    <label for="green">Green</label><br>
+    <input type="radio" id="blue" name="color" value="blue">
+    <label for="blue">Blue</label><br>
+
+    <label for="favcolor">Select your favorite color:</label>
+    <select id="favcolor" name="favcolor">
+      <option value="red">Red</option>
+      <option value="green">Green</option>
+      <option value="blue">Blue</option>
+      <option value="yellow">Yellow</option>
+    </select>
+
+    <input type="submit" value="Submit">
+  </form>
+</div>
+
+</body>
+</html>

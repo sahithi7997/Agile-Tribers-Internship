@@ -1,0 +1,44 @@
+<html>
+<head>
+    <title>Colspan</title>
+    <style>
+        table {
+            width: 30%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+        th, td {
+            border: 1px solid brown;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #f6f6f2;
+        }
+    </style>
+</head>
+<body>
+
+<h2>Colspan</h2>
+<p>Merge the cells</p>
+
+<table>
+    <tr>
+        <th>Name</th>
+        <th>Expense</th>
+    </tr>
+    <tr>
+        <td>Arun</td>
+        <td>$10</td>
+    </tr>
+    <tr>
+        <td>Priya</td>
+        <td>$8</td>
+    </tr>
+    <tr>
+        <td colspan="2">Sum: $18</td>
+    </tr>
+</table>
+
+</body>
+</html>

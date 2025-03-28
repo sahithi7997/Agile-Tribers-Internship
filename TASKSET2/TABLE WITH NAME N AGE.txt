@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Table Example</title>
+<style>
+table {
+  width: 50%;
+  border-collapse: collapse;
+}
+
+th, td {
+  border: 1px solid black;
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+</style>
+</head>
+<body>
+
+<h2>Table with Name & Age</h2>
+<p>names, ages, and an average age row.</p>
+
+<table>
+  <tr>
+    <th>FULL NAME</th>
+    <th></th>
+    <th>AGE</th>
+  </tr>
+  <tr>
+    <td>Fabio</td>
+    <td>Cimo</td>
+    <td>20</td>
+  </tr>
+  <tr>
+    <td>Jasmin</td>
+    <td>Brown</td>
+    <td>18</td>
+  </tr>
+  <tr>
+    <td>James</td>
+    <td>Wick</td>
+    <td>35</td>
+  </tr>
+  <tr>
+    <td>Donald</td>
+    <td>Dawn</td>
+    <td>29</td>
+  </tr>
+  <tr>
+    <td>Average Age</td>
+    <td></td>
+    <td>22</td>
+  </tr>
+</table>
+</body>
+</html>

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Complex Table Structure</title>
+<style>
+  table {
+    border-collapse: collapse;
+    width: 80%;
+    margin: 20px auto;
+    border: 2px solid black;
+  }
+
+  th, td {
+    border: 1px solid black;
+    text-align: center;
+    padding: 8px;
+  }
+
+  th {
+    background-color: #f2f2f2;
+  }
+</style>
+</head>
+<body>
+
+  <h2>Complex Table Structure</h2>
+  <p>Use colspan and rowspan for number alignment.</p>
+
+  <table>
+    <tr>
+      <th colspan="5">number</th>
+    </tr>
+    <tr>
+      <td>1</td>
+      <td>2</td>
+      <td>3</td>
+      <td>4</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <td rowspan="2">8</td>
+      <td>6</td>
+       <td colspan="2">7</td>
+      <td colspan="2"></td>
+    </tr>
+    <tr>
+      <td>9</td>
+      <td>10</td>
+      <td>11</td>
+      <td>12</td>
+    </tr>
+    <tr>
+      <td>13</td>
+      <td>14</td>
+      <td colspan="2">15</td>
+      <td>16</td>
+    </tr>
+  </table>
+
+</body>
+</html>

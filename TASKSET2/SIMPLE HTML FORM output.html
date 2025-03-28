@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Simple HTML Form</title>
+<style>
+body {
+    font-family: sans-serif;
+    padding: 20px;
+}
+.container {
+    width: 400px;
+    margin: 0 auto;
+    border: 1px solid #ddd;
+    padding: 20px;
+}
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0 20px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+input[type="submit"] {
+    background-color: #f0f0f0;  /* Light gray background */
+    color: black;
+    padding: 10px 15px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+}
+input[type="submit"]:hover {
+    background-color: #e0e0e0; /* Slightly darker gray on hover */
+}
+</style>
+</head>
+<body>
+
+<div class="container">
+  <h2>Simple HTML Form</h2>
+  <p>Form with Name, Email, and Submit button.</p>
+  
+  <p><strong>Please Fill And Submit Form :</strong></p>
+
+  <form>
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" placeholder="Your name..">
+
+    <label for="email">Email:</label>
+    <input type="text" id="email" name="email" placeholder="Your email..">
+
+    <input type="submit" value="Submit">
+  </form>
+</div>
+
+</body>
+</html>
